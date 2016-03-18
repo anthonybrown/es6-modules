@@ -26,12 +26,16 @@
   /*
    * // ./cool-catz.js
    * export default ['Ben Lesh', 'Brian Holt']
+   * export const favoriteTech = 'RxJS'
    */
 
 
   console.log(_lodash2.default);
+  // the lodash object
   console.log(_lodash.get);
+  // get function
   console.log(_coolCatz2.default);
-  console.log(_coolCatz.thing);
   // ['Ben Lesh', 'Brian Holt']
+  console.log(_coolCatz.favoriteTech);
+  // RxJS
 });

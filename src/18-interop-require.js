@@ -1,13 +1,17 @@
 /*
  * // ./cool-catz.js
  * export default ['Ben Lesh', 'Brian Holt']
+ * export const favoriteTech = 'RxJS'
  */
-import catz, {thing} from './cool-catz'
+import catz, {favoriteTech} from './cool-catz'
 import _, {get} from 'lodash'
 
 console.log(_)
+// the lodash object
 console.log(get)
+// get function
 console.log(catz)
-console.log(thing)
 // ['Ben Lesh', 'Brian Holt']
+console.log(favoriteTech)
+// RxJS
 
